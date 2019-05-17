@@ -45,8 +45,8 @@
                             <td>'.$row['email'].'</td>
                             <td>'.$row['data_comentario'].'</td>
                             <td>'.$row['comentario'].'</td>
-                            <td><a href="subformulario.php?id='.$row['id'].'"><button>Comentar comentario</button></td>
-                            <td><button>Mostrar comentários</button></td>
+                            <td><a href="subformulario.php?id='.$row['id'].'"><button>Comentar comentario</button></a></td>
+                            <td><a href=subcomentarios.php?id='.$row['id'].'><button>Mostrar comentários</button></a></td>
             </tr>';
 	}
 ?>
